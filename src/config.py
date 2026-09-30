@@ -6,7 +6,7 @@ load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
-PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "agentic-ai-index")
+PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "agentic-ai-idx")
 
 # Model Configuration
 EMBEDDING_MODEL = "text-embedding-3-small"
